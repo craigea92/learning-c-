@@ -35,3 +35,17 @@ Console.WriteLine(sayHello);
 
 Console.WriteLine(sayHello.ToUpper());
 Console.WriteLine(sayHello.ToLower());
+
+// Search Strings with Boolean Values
+
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+Console.WriteLine(songLyrics.Contains("greetings"));
+
+// StartsWith and EndsWith methods
+
+string moreSongLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(moreSongLyrics.StartsWith("You"));
+Console.WriteLine(moreSongLyrics.StartsWith("goodbye"));
+Console.WriteLine(moreSongLyrics.EndsWith("hello"));
+Console.WriteLine(moreSongLyrics.EndsWith("goodbye"));
