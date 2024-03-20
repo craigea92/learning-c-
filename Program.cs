@@ -49,3 +49,17 @@ Console.WriteLine(moreSongLyrics.StartsWith("You"));
 Console.WriteLine(moreSongLyrics.StartsWith("goodbye"));
 Console.WriteLine(moreSongLyrics.EndsWith("hello"));
 Console.WriteLine(moreSongLyrics.EndsWith("goodbye"));
+
+// Exploring Integer Math
+
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+
+int d = a - b;
+int e = a * b;
+int f = a / b;
+Console.WriteLine(d);
+Console.WriteLine(e);
+Console.WriteLine(f);
