@@ -52,14 +52,32 @@ Console.WriteLine(moreSongLyrics.EndsWith("goodbye"));
 
 // Exploring Integer Math
 
-int a = 18;
-int b = 6;
-int c = a + b;
-Console.WriteLine(c);
+// int a = 18;
+// int b = 6;
+// int c = a + b;
+// Console.WriteLine(c);
 
-int d = a - b;
-int e = a * b;
-int f = a / b;
+// int d = a - b;
+// int e = a * b;
+// int f = a / b;
+// Console.WriteLine(d);
+// Console.WriteLine(e);
+// Console.WriteLine(f);
+
+// Order of operations
+
+// int a = 5;
+// int b = 4;
+// int c = 2;
+// int d = a + b * c;
+// Console.WriteLine(d);
+
+// The output demonstrates that the multiplication is performed before the addition.
+
+int a = 5;
+int b = 4;
+int c = 2;
+int d = (a + b) * c;
 Console.WriteLine(d);
-Console.WriteLine(e);
-Console.WriteLine(f);
+
+// We can force a different order of operation by adding parenthesis
